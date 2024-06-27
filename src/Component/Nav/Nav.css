@@ -1,0 +1,21 @@
+
+nav{
+   height:10vh;
+   background-color: purple;
+   display: flex;
+   justify-content: start;
+   align-items:start;
+   }
+   .nav-link{
+      margin: 1rem;
+      text-decoration: none;
+      color:aqua;
+      border:1px solid none;
+      font-weight: bold;
+   }
+   .nav-link:hover{
+      background-color: orange;
+   }
+   .nav-link:active{
+      background-color: red;
+   }
