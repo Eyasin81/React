@@ -1,7 +1,7 @@
 
 nav{
    height:10vh;
-   background-color: purple;
+   background-color: rgb(32,78,207);
    display: flex;
    justify-content: start;
    align-items:start;
@@ -9,13 +9,13 @@ nav{
    .nav-link{
       margin: 1rem;
       text-decoration: none;
-      color:aqua;
+      color:White;
       border:1px solid none;
       font-weight: bold;
    }
-   .nav-link:hover{
-      background-color: orange;
-   }
-   .nav-link:active{
-      background-color: red;
-   }
+
+
+   /* 
+  
+   
+   */
