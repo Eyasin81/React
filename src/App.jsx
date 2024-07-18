@@ -13,6 +13,7 @@ import DesignCard from './Pages/6_DesignCard';
 import Props from './Pages/8_props_Destru/Props';
 /* Map Data */
 import MapData from './Pages/9_MapData';
+import Conditional from './Pages/21_conditional_Rendering/Conditional';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
 
    <Route path='/destructor' element={<Props/>}/>
    <Route path='/Mapdata' element={<MapData/>}/>
+   <Route path='/Conditional' element={<Conditional/>}/>
    
    </Routes>
    </BrowserRouter>

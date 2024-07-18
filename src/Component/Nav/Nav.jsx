@@ -11,6 +11,7 @@ const Nav = () => {
     <NavLink to='/useState' className='nav-link'>UseState</NavLink>
     <NavLink to='/destructor' className='nav-link'>destructor</NavLink>
     <NavLink to='/Mapdata' className='nav-link'>MapData</NavLink>
+    <NavLink to='/Conditional' className='nav-link'>Conditional</NavLink>
     </nav>
 
    );
