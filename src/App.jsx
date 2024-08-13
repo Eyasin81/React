@@ -1,36 +1,18 @@
 import React from 'react';
+import UseStateWithObject from './Pages/29use State with Object/useStateWithObject';
+//30 Passing Data from Child To Parent
+import Parent from './Pages/30 Passing data from child to parent component/Parent';
+import ParentData from './Pages/31more on state lifting Pssing Data From Prent to Child/ParentData';
+//31 Passing Data from Parent To Child
+// 
+import HomeTodo from './Pages/32_Basic_Todo_App_Parent_Child/HomeTodo';
 
-import { BrowserRouter,Routes,Route} from 'react-router-dom';
-import './Assets/bootstrap.min.css'
-import Home from './Pages/Home';
-import Expression from './Pages/4_JSX and JS Expression';
-import Nav from './Component/Nav/Nav';
-// 6 Card Design
-// videos-20 useState Method
-import UseState from './Pages/20_UseState';
-import DesignCard from './Pages/6_DesignCard';
-// Destructor Methods
-import Props from './Pages/8_props_Destru/Props';
-/* Map Data */
-import MapData from './Pages/9_MapData';
-import Conditional from './Pages/21_conditional_Rendering/Conditional';
 
 const App = () => {
   return (
-   <BrowserRouter>
-   <Nav/>
-   <Routes>
-   <Route path='/four' element={<Expression/>}/>
-   <Route path='/' element={<Home/>}/>
-   <Route path='/UseState' element={<UseState/>}/>
-   <Route path='/DesignCard' element={<DesignCard/>}/>
-
-   <Route path='/destructor' element={<Props/>}/>
-   <Route path='/Mapdata' element={<MapData/>}/>
-   <Route path='/Conditional' element={<Conditional/>}/>
-   
-   </Routes>
-   </BrowserRouter>
+    <div>
+     <HomeTodo/>
+    </div>
   );
 };
 
