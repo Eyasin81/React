@@ -4,7 +4,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import EventHandler_onChange_onClick from './Pages/22Event-Handler-onChange-onClick/EventHandler-onChange-onClick';
 // 23EventHandlerBinding
 import EventHandlerBinding from './Pages/23EventHandlerBinding/EventHandlerBinding';
+//24 UseState Hooks
 import UseState from './Pages/24_useState Hook/UseState';
+//25 UpdateState 
+import UpdateState from './Pages/25updateStatebBasedOnPreviousState/UpdateState';
 
 import UseStateWithObject from './Pages/29use State with Object/useStateWithObject';
 //30 Passing Data from Child To Parent
@@ -24,6 +27,7 @@ const App = () => {
     <Route path="/onChang" element={<EventHandler_onChange_onClick/>}/>
     <Route path="/EventHandlerBinding" element={<EventHandlerBinding/>}/>
     <Route path="/24" element={<UseState/>}/>
+    <Route path="/25" element={<UpdateState/>}/>
     </Routes>
     </BrowserRouter>
   );
