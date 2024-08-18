@@ -20,6 +20,7 @@ import ParentData from './Pages/31more on state lifting Pssing Data From Prent t
 import HomeTodo from './Pages/32_Basic_Todo_App_Parent_Child/HomeTodo';
 import All from './Pages/All';
 import Assignment_2 from './Pages/27_Assignment_2_Counter_App/Assignment_2';
+import CollectedData from './Pages/28ControlledComponentCollectFformData/CollectedData';
 
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
     <Route path="/25" element={<UpdateState/>}/>
     <Route path="/26" element={<StopPropagation/>}/>
     <Route path="/27" element={<Assignment_2/>}/>
+    <Route path="/28" element={<CollectedData/>}/>
     </Routes>
     </BrowserRouter>
   );
