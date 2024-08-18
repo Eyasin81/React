@@ -8,6 +8,8 @@ import EventHandlerBinding from './Pages/23EventHandlerBinding/EventHandlerBindi
 import UseState from './Pages/24_useState Hook/UseState';
 //25 UpdateState 
 import UpdateState from './Pages/25updateStatebBasedOnPreviousState/UpdateState';
+// 26 StopPropagation
+import StopPropagation from './Pages/26EventBubblingStopPropagation/StopPropagation';
 
 import UseStateWithObject from './Pages/29use State with Object/useStateWithObject';
 //30 Passing Data from Child To Parent
@@ -28,6 +30,7 @@ const App = () => {
     <Route path="/EventHandlerBinding" element={<EventHandlerBinding/>}/>
     <Route path="/24" element={<UseState/>}/>
     <Route path="/25" element={<UpdateState/>}/>
+    <Route path="/26" element={<StopPropagation/>}/>
     </Routes>
     </BrowserRouter>
   );
