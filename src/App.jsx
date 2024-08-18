@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// 22 EventHandler_onChange_onClick
+import EventHandler_onChange_onClick from './Pages/22Event-Handler-onChange-onClick/EventHandler-onChange-onClick';
 // 23EventHandlerBinding
 import EventHandlerBinding from './Pages/23EventHandlerBinding/EventHandlerBinding';
 
@@ -18,6 +20,7 @@ const App = () => {
     <BrowserRouter>
     <Routes>
     <Route path="/" element={<All/>}/>
+    <Route path="/onChang" element={<EventHandler_onChange_onClick/>}/>
     <Route path="/EventHandlerBinding" element={<EventHandlerBinding/>}/>
     </Routes>
     </BrowserRouter>
